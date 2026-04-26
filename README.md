@@ -1,44 +1,46 @@
 # Roman Trubenkov
 
-**AI Agent OS Architect** | Production multi-agent systems | Argentina
+**AI Agent OS Architect** | Production multi-agent systems | Argentina 🇦🇷
 
-I build production-grade AI Agent Operating Systems — not prompt wrappers, not ChatGPT clones — systems with **governance**, **evaluation infrastructure**, and **reusable framework code** that run reliably in production.
-
-## What I build
-
-- **Multi-agent orchestration** with FSM logic, role-based registries, governance layer
-- **Production integrations at scale** — DLQ, retries, SLO monitoring, fault tolerance
-- **Skill-driven modular AI systems** — reusable framework lib, dynamic skill loading
-- **Multi-model routing** with cost optimization (3-5× cost reduction vs single-model)
-- **Eval-first development** — automated test suites, regression detection
-
-## Production system: Pepino OS
-
-A live AI Agent OS running my business operations:
-- 35+ specialized domain skills
-- 9 reusable framework modules
-- 8 governance specifications
-- 20+ live evaluation tests
-- 16 governance rules covering Builder Ethos
-
-## Engagement
-
-| Type | Investment |
-|------|-----------|
-| Architecture review | $500–1,500 |
-| System design + handoff | $2,000–5,000 |
-| Full implementation | $3,000–8,000+ |
-| Retainer support | $800–2,500/mo |
-
-## Contact
-
-- Email: roman.trubenkov.ai@gmail.com
-- Telegram: [@RomanTrubenkov](https://t.me/RomanTrubenkov)
-
-## Portfolio
-
-See [Pepino OS Portfolio Gist](https://gist.github.com/RomanTrubenkov/...) — sanitized public reference.
+I build AI Agent Operating Systems — not chatbot wrappers, not single-prompt assistants. Production-grade systems where dozens of specialized agents share a governance layer, route work through a state machine, persist memory across sessions, fail safely, and improve themselves on a measurable feedback loop.
 
 ---
 
-*Practitioner, not a generalist. I came to AI through operational pain in my own specialty greenhouse business — and that pushed me to build infrastructure rather than buy off-the-shelf solutions.*
+## 🔧 Featured Project
+
+### [Pepino OS — AI Agent OS Architecture Portfolio](https://github.com/RomanTrubenkov/pepino-portfolio)
+
+Production multi-agent AI Operating System. **1+ year in production** running my own greenhouse business in Argentina. Sanitized public reference of:
+
+- **Architecture overview** with Mermaid diagrams
+- **Policy Engine** — 5-level action policy with budget tiers and approval matrix
+- **State Machine** — formal task lifecycle, 10 states, timeout engine
+- **Memory System** — 4-tier taxonomy: working / episodic / semantic / procedural
+- **Agent Registry** — single source of truth for system map
+- **Reusable Framework Library** — 9 modules for any production AI system
+- **7 Architecture Patterns** from real production experience
+
+**Stack:** Claude API, MCP, Python (aiogram, FastAPI), Node.js, SQLite + WAL, multi-model routing (Claude / Gemini / Groq / Ollama / Moonshot Kimi vision), governance layer, eval infrastructure, DLQ + replay, run-wrapper, SLO monitoring.
+
+---
+
+## 💼 Available for AI consulting engagements
+
+- **Architecture review** — $500–1,500 (1–2 weeks)
+- **System design + handoff** — $2,000–5,000 (3–6 weeks)
+- **Full implementation** — $3,000–8,000+ (scope-dependent)
+- **Retainer support** — $800–2,500/month
+
+I work in the gap between two camps that rarely meet: people who can prompt-engineer but cannot ship reliable systems, and people who can ship reliable systems but treat LLMs as a black box.
+
+---
+
+## 📫 Contact
+
+- **Telegram:** [@RomanTrubenkov](https://t.me/RomanTrubenkov)
+- **Email:** roman.trubenkov.ai@gmail.com
+- **Languages:** Russian (native), English (working), Spanish (Argentine)
+
+---
+
+*Based in Buenos Aires province, Argentina. Operating my own greenhouse and running the Agent OS that operates it. Every architectural decision is paid for in either downtime, ARS, or sleep — which keeps the engineering honest.*
